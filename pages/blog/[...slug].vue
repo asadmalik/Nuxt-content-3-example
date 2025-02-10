@@ -3,7 +3,7 @@
     <h1>{{ page?.title }}</h1>
     <div>
       <ContentRenderer v-if="page" :value="page" />
-      <div v-else>Not value</div>
+      <div v-else>Blog post not found.</div>
     </div>
   </div>
 </template>
@@ -14,7 +14,7 @@
     return queryCollection('blog').path(route.path).first()
   })
 
-  page.value ? console.log('got page: ', page) : console.log('no page');
+  //page.value ? console.log('got page: ', page) : console.log('no page');
 </script>
 
 <style scoped></style>

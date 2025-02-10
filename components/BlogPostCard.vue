@@ -1,5 +1,5 @@
 <template>
-  <div class="rounded-lg shadow-md hover:shadow-lg overflow-hidden bg-white dark:bg-gray-800">
+  <div class="rounded-lg shadow-md hover:shadow-lg overflow-hidden bg-white dark:bg-gray-800 flex flex-col">
     <NuxtLink :to="post.path">
       <img v-if="post.coverImage" :src="post.coverImage" :alt="post.title" class="w-full h-48 object-cover" />
     </NuxtLink>
