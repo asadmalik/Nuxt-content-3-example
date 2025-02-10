@@ -1,0 +1,14 @@
+---
+title: "Your First Blog Post"
+date: "2025-01-01"
+author: "Jane Doe"
+tags:
+  - Nuxt
+  - Web Development
+excerpt: "Learn how to create a blog with Nuxt 3 and @nuxt/content."
+coverImage: "/images/cover.jpg"
+---
+
+## Welcome to Your First Blog Post
+
+This is where you write your blog content. You can use **Markdown** syntax to format your text, include links, images, and more.
